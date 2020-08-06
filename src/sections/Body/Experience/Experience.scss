@@ -1,0 +1,39 @@
+.experience{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    &-tabs{
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 1.2em;
+        background-color: hsla(191, 100%, 50%, 0.2);
+    }
+    .nav-link{
+        margin: 2px;
+        &.active{
+            border-radius: 1.2em;
+            background: white!important;
+            color: black!important;
+        }
+    }
+    .tab-content-container{
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        .row{
+            margin-top: 6px;
+        }
+        li{
+            margin-top: 10px;
+        }
+        .card-foot{
+            background-color: blue;
+            font-size: 12px;
+            padding:5px;
+            margin: 3px;
+            border-radius: 1em;
+            color:white;
+        }
+    }
+       
+}

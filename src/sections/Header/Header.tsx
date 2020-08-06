@@ -7,8 +7,8 @@ import Instagram from '../../assets/InstagramWin.svg';
 import Discord from '../../assets/DiscordWin.svg';
 import background from '../../assets/p1_bg.png';
 const routes : [string,string][]=[
-    ['[Home]','/'],
-    ['[About]','/about'],
+    ['[Home]','#home'],
+    ['[About]','#about'],
     ['[Contact me]','/contact']
 ];
 const contacts: [string,string][]=[

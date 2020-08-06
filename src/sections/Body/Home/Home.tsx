@@ -43,7 +43,10 @@ const Home: React.FC = ()=>{
             backgroundImage:`url(${Bg})`,
             backgroundSize:"cover",
             padding:"10px"
-        }}>
+        }}
+            id="home"
+            className='home'
+        >
             <FunnyText show={(displayingText===0)}>KHANH LE</FunnyText>
             <FunnyText show={(displayingText===1)}>Hometown in Vietnam</FunnyText>
             <FunnyText show={(displayingText===2)}>A competitive programmer</FunnyText>
