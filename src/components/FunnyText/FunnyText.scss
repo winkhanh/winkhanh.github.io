@@ -1,0 +1,19 @@
+.funny-text{
+    font-size: 90px;
+    transition-duration: 5s;
+    color:black;
+    text-align: right;
+    .first-letter{
+        color:red;
+        opacity: 1 !important;
+    }
+    .following-letters{
+        transition-duration: 1s;
+    }
+    &-hidden{
+        .following-letters{
+            transition-duration: 3s;
+            opacity: 0;
+        }
+    }
+}
