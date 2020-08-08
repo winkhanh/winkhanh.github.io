@@ -2,6 +2,18 @@
     &-list{
         padding: 20px;
         background-color:hsla(56, 67%, 40%, 0.2);
-        
+        &-container{
+            text-overflow: ellipsis;
+            
+            word-wrap: break-word;
+            
+            
+            padding-right: 5px;
+            ul {
+                li{
+                margin-left: -30px;
+                }
+            }
+        }
     }
 }

@@ -53,7 +53,7 @@ const Event:React.FC = ()=>{
             <Form.Control type="range" onChange={handleSlide1} value={sliding1}/>
             <Form.Control type="range" onChange={handleSlide2} value={sliding2}/>
             <Row className='event-list'>
-                <div className="ml-auto mr-auto">
+                <div className="ml-auto mr-auto event-list-container">
                     <ol>
                         {listOfEvents.map((eventPoint,idx)=>{
                             if (eventPoint.value<getEventAt(sliding1).value || eventPoint.value>getEventAt(sliding2).value)
