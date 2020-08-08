@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <g id="MailWin" transform="translate(0 -0.053)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="128" height="128" transform="translate(0 0.053)" fill="none"/>
+    <g id="Group_12" data-name="Group 12" transform="translate(-48 -10.947)">
+      <g id="Path_14" data-name="Path 14" transform="translate(80 56)" fill="#fff">
+        <path d="M 63.5 39.5 L 0.5 39.5 L 0.5 0.5 L 63.5 0.5 L 63.5 39.5 Z" stroke="none"/>
+        <path d="M 1 1 L 1 39 L 63 39 L 63 1 L 1 1 M 0 0 L 64 0 L 64 40 L 0 40 L 0 0 Z" stroke="none"/>
+      </g>
+      <path id="Path_13" data-name="Path 13" d="M-96-133v-40l32,16,32-16v40h-8v-32l-24,11.541L-88-165v32Z" transform="translate(176 229)"/>
+    </g>
+  </g>
+</svg>

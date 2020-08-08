@@ -1,0 +1,12 @@
+.body{
+    transition-duration: 5s;
+}
+
+.small{
+    transform: skewY(-20deg) scaleX(40%) scaleY(40%);
+    overflow-y: scroll;
+    margin-top:-30%;
+    margin-bottom:-30%;
+    margin-left:-50%;
+    border: 1px solid;
+}

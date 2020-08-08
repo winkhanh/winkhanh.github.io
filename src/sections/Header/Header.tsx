@@ -5,7 +5,10 @@ import Git from '../../assets/GitWin.svg';
 import Facebook from '../../assets/FacebookWin.svg';
 import Instagram from '../../assets/InstagramWin.svg';
 import Discord from '../../assets/DiscordWin.svg';
+import Mail from '../../assets/MailWin.svg';
+import LinkedIn from '../../assets/LinkedInWin.svg';
 import background from '../../assets/p1_bg.png';
+
 const routes : [string,string][]=[
     ['[Home]','#home'],
     ['[About]','#about'],
@@ -15,9 +18,11 @@ const contacts: [string,string][]=[
     [Git,'https://github.com/winkhanh'],
     [Facebook,'https://www.facebook.com/wgiakhanh'],
     [Instagram,'https://www.instagram.com/khanh180900/'],
-    [Discord,'']
+    [Discord,''],
+    [Mail,''],
+    [LinkedIn,'https://www.linkedin.com/in/wkhanh-le/']
 ];
-
+const ResumeLink= "https://drive.google.com/file/d/1UfWR_CYEm1_mpgLFog7e0iFigABfy1ir/view?usp=sharing";
 const Header : React.FC = ()=>{
     return(
         <Navbar expand='lg' fixed='top' bg="light" sticky='top'>
@@ -43,7 +48,7 @@ const Header : React.FC = ()=>{
                     </Nav.Item>
                 )}
                     <Nav.Item>
-                        <Nav.Link as={Button} href="https://drive.google.com/file/d/1BgqFQH-xIOnVdirdmabx-nzqgujkJEVQ/view?usp=sharing" target="_blank"
+                        <Nav.Link as={Button} href={ResumeLink} target="_blank"
                         style={{
                             background:`url(${background}) no-repeat`,
                             "background-size":'contain',

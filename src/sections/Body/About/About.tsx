@@ -15,6 +15,7 @@ const AboutText="I'm Khanh Le, a competitive programmer as well as a web and mob
 +"at SUNY Plattsburgh. If there is any project that want to collaborate with me, feel free to reach out to me."
 const ResumeText="This is my resume. I'm currently open to any intern/co-op opportunity for Fall/Winter 2020 and Spring/Summer 2021."
 const listOfBg : string[] = [Bg1,Bg2,Bg3];
+const ResumeLink= "https://drive.google.com/file/d/1UfWR_CYEm1_mpgLFog7e0iFigABfy1ir/view?usp=sharing";
 const About : React.FC = ()=>{
     const [Bg,setBg]=useState(Bg1);
     useEffect(()=>{
@@ -35,7 +36,7 @@ const About : React.FC = ()=>{
                             <p>Hi there,</p>
                             <p>{AboutText}</p>
                             <p>{ResumeText}</p>
-                            <a href="https://drive.google.com/file/d/1BgqFQH-xIOnVdirdmabx-nzqgujkJEVQ/view?usp=sharing" rel="noopener noreferrer" target="_blank"><Button><u>Resume</u></Button></a>
+                            <a href={ResumeLink} rel="noopener noreferrer" target="_blank"><Button><u>Resume</u></Button></a>
                         </div>
                     </Col>
                 </Row>

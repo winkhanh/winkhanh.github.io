@@ -48,10 +48,10 @@ const Home: React.FC = ()=>{
             className='home'
         >
             <FunnyText show={(displayingText===0)}>KHANH LE</FunnyText>
-            <FunnyText show={(displayingText===1)}>Hometown in Vietnam</FunnyText>
-            <FunnyText show={(displayingText===2)}>A competitive programmer</FunnyText>
-            <FunnyText show={(displayingText===3)}>Now, a fullstack dev</FunnyText>
-            <FunnyText show={(displayingText===4)}>Hmmmmmmm</FunnyText>
+            <FunnyText show={(displayingText===1)} mdOnly>Hometown in Vietnam</FunnyText>
+            <FunnyText show={(displayingText===2)} mdOnly>A competitive programmer</FunnyText>
+            <FunnyText show={(displayingText===3)} mdOnly>Now, a fullstack dev</FunnyText>
+            <FunnyText show={(displayingText===4)} mdOnly>Hmmmmmmm</FunnyText>
         </div>
     )
 }

@@ -96,7 +96,7 @@ const Experience : React.FC = ()=>{
     const [Bg,setBg]=useState(Bg1);
     useEffect(()=>{
         setBg(listOfBg[Math.floor(Math.random()*3)]);
-    },[])
+    },[]);
     return(
         <div className='experience' id='experience' style={{
             backgroundImage:`url(${Bg})`,
