@@ -11,8 +11,9 @@ import background from '../../assets/p1_bg.png';
 
 const routes : [string,string][]=[
     ['[Home]','#home'],
-    ['[About]','#about'],
-    ['[Contact me]','/contact']
+    ['[About me]','#about'],
+    ['[My Experience]','#experience'],
+    ["[My life's event]",'#event']
 ];
 const contacts: [string,string][]=[
     [Git,'https://github.com/winkhanh'],
@@ -25,7 +26,7 @@ const contacts: [string,string][]=[
 const ResumeLink= "https://drive.google.com/file/d/1UfWR_CYEm1_mpgLFog7e0iFigABfy1ir/view?usp=sharing";
 const Header : React.FC = ()=>{
     return(
-        <Navbar expand='lg' fixed='top' bg="light" sticky='top'>
+        <Navbar expand='lg' fixed='top' bg="light" >
             <Navbar.Brand>
                 <WButton/>
             </Navbar.Brand>
