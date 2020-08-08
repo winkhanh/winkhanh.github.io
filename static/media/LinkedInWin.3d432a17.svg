@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <g id="LinkedInWin" transform="translate(0 -0.053)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="128" height="128" transform="translate(0 0.053)" fill="none"/>
+    <g id="Group_13" data-name="Group 13" transform="translate(-212 -23.947)">
+      <path id="Path_15" data-name="Path 15" d="M58-102H74v-48H58Z" transform="translate(182 222)" stroke="#fffbfb" stroke-width="1"/>
+      <g id="Ellipse_12" data-name="Ellipse 12" transform="translate(240 56)" fill="#131212" stroke="#fff" stroke-width="1">
+        <circle cx="8" cy="8" r="8" stroke="none"/>
+        <circle cx="8" cy="8" r="7.5" fill="none"/>
+      </g>
+      <path id="Path_16" data-name="Path 16" d="M82-102v-48H98v8s8-8,16-8,16,8,16,8v40H114v-32s-4-4.4-8-4.4-8,4.4-8,4.4v32Z" transform="translate(182 222)" stroke="#fff" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

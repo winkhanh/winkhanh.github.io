@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.db103a3e.chunk.css",
-    "main.js": "/static/js/main.81431e1f.chunk.js",
-    "main.js.map": "/static/js/main.81431e1f.chunk.js.map",
+    "main.css": "/static/css/main.a8ad9134.chunk.css",
+    "main.js": "/static/js/main.ae19f53a.chunk.js",
+    "main.js.map": "/static/js/main.ae19f53a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.223301a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.223301a1.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.52fe4184.chunk.js": "/static/js/2.52fe4184.chunk.js",
-    "static/js/2.52fe4184.chunk.js.map": "/static/js/2.52fe4184.chunk.js.map",
+    "static/js/2.8a874477.chunk.js": "/static/js/2.8a874477.chunk.js",
+    "static/js/2.8a874477.chunk.js.map": "/static/js/2.8a874477.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c025c65838be268546360148278228f2.js": "/precache-manifest.c025c65838be268546360148278228f2.js",
+    "precache-manifest.5d670bac8aa025af131fa0a4b504f082.js": "/precache-manifest.5d670bac8aa025af131fa0a4b504f082.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.db103a3e.chunk.css.map": "/static/css/main.db103a3e.chunk.css.map",
-    "static/js/2.52fe4184.chunk.js.LICENSE.txt": "/static/js/2.52fe4184.chunk.js.LICENSE.txt",
+    "static/css/main.a8ad9134.chunk.css.map": "/static/css/main.a8ad9134.chunk.css.map",
+    "static/js/2.8a874477.chunk.js.LICENSE.txt": "/static/js/2.8a874477.chunk.js.LICENSE.txt",
     "static/media/Bg1.svg": "/static/media/Bg1.055d896f.svg",
     "static/media/Bg2.svg": "/static/media/Bg2.92e34efc.svg",
     "static/media/Bg3.svg": "/static/media/Bg3.d113c511.svg",
@@ -22,14 +22,16 @@
     "static/media/FacebookWin.svg": "/static/media/FacebookWin.1049d0ca.svg",
     "static/media/GitWin.svg": "/static/media/GitWin.c6f31b31.svg",
     "static/media/InstagramWin.svg": "/static/media/InstagramWin.756916bf.svg",
+    "static/media/LinkedInWin.svg": "/static/media/LinkedInWin.3d432a17.svg",
+    "static/media/MailWin.svg": "/static/media/MailWin.d2b0cecc.svg",
     "static/media/me.jpg": "/static/media/me.62062077.jpg",
     "static/media/p1_bg.png": "/static/media/p1_bg.0e3f0b9f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.223301a1.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.52fe4184.chunk.js",
-    "static/css/main.db103a3e.chunk.css",
-    "static/js/main.81431e1f.chunk.js"
+    "static/js/2.8a874477.chunk.js",
+    "static/css/main.a8ad9134.chunk.css",
+    "static/js/main.ae19f53a.chunk.js"
   ]
 }
