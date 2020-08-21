@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.795d7ced.chunk.css",
-    "main.js": "/static/js/main.0b81723c.chunk.js",
-    "main.js.map": "/static/js/main.0b81723c.chunk.js.map",
+    "main.js": "/static/js/main.fec3475d.chunk.js",
+    "main.js.map": "/static/js/main.fec3475d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.223301a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.223301a1.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.8a874477.chunk.js": "/static/js/2.8a874477.chunk.js",
-    "static/js/2.8a874477.chunk.js.map": "/static/js/2.8a874477.chunk.js.map",
+    "static/js/2.424dfa2f.chunk.js": "/static/js/2.424dfa2f.chunk.js",
+    "static/js/2.424dfa2f.chunk.js.map": "/static/js/2.424dfa2f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d091c67403d4ace494261428c54bb5cf.js": "/precache-manifest.d091c67403d4ace494261428c54bb5cf.js",
+    "precache-manifest.a8da19c5b25f927f1c50a98a7484e245.js": "/precache-manifest.a8da19c5b25f927f1c50a98a7484e245.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.795d7ced.chunk.css.map": "/static/css/main.795d7ced.chunk.css.map",
-    "static/js/2.8a874477.chunk.js.LICENSE.txt": "/static/js/2.8a874477.chunk.js.LICENSE.txt",
+    "static/js/2.424dfa2f.chunk.js.LICENSE.txt": "/static/js/2.424dfa2f.chunk.js.LICENSE.txt",
     "static/media/Bg1.svg": "/static/media/Bg1.055d896f.svg",
     "static/media/Bg2.svg": "/static/media/Bg2.92e34efc.svg",
     "static/media/Bg3.svg": "/static/media/Bg3.d113c511.svg",
@@ -23,15 +23,18 @@
     "static/media/GitWin.svg": "/static/media/GitWin.c6f31b31.svg",
     "static/media/InstagramWin.svg": "/static/media/InstagramWin.756916bf.svg",
     "static/media/LinkedInWin.svg": "/static/media/LinkedInWin.3d432a17.svg",
+    "static/media/Logo.svg": "/static/media/Logo.b6ff7a6e.svg",
     "static/media/MailWin.svg": "/static/media/MailWin.d2b0cecc.svg",
+    "static/media/SUNYLogo.jpg": "/static/media/SUNYLogo.0d210268.jpg",
     "static/media/me.jpg": "/static/media/me.62062077.jpg",
-    "static/media/p1_bg.png": "/static/media/p1_bg.0e3f0b9f.png"
+    "static/media/p1_bg.png": "/static/media/p1_bg.0e3f0b9f.png",
+    "static/media/suny.png": "/static/media/suny.4ff517c5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.223301a1.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.8a874477.chunk.js",
+    "static/js/2.424dfa2f.chunk.js",
     "static/css/main.795d7ced.chunk.css",
-    "static/js/main.0b81723c.chunk.js"
+    "static/js/main.fec3475d.chunk.js"
   ]
 }

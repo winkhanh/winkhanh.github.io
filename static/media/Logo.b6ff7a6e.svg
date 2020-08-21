@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="136" viewBox="0 0 144 136">
+  <g id="Logo" transform="translate(-384 -328)">
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="144" height="136" transform="translate(384 328)" fill="none"/>
+    <g id="Group_14" data-name="Group 14" transform="translate(8 8)">
+      <path id="Path_17" data-name="Path 17" d="M250,202v-8h8l8-48-24-8-8,32h-8v8l-32,8,8,24Z" transform="translate(182 222)"/>
+      <path id="Path_18" data-name="Path 18" d="M266,194l8-48,24-8-3.726,16L322,130l24-8-36.627,40L338,170l-24,8-19.726-16L290,186Z" transform="translate(174 222)" fill="red"/>
+    </g>
+  </g>
+</svg>
