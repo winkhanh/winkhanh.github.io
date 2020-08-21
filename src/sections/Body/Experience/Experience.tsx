@@ -6,20 +6,23 @@ import Bg2 from '../../../assets/Bg2.svg';
 import Bg3 from '../../../assets/Bg3.svg';
 import CHlogo from '../../../assets/CHsmall-logo.png';
 import CHFullLogo from '../../../assets/CHLogo.svg';
+import myLogo from '../../../assets/Logo.svg';
+import SunyLogo from '../../../assets/suny.png';
+import SunyFullLogo from '../../../assets/SUNYLogo.jpg';
 
 import {ProjectType, ExperienceType, CodingHubExp, SideProjectExp, SUNYExp} from './Content';
 const listExp : ExperienceType[] = [CodingHubExp,SUNYExp, SideProjectExp];
 const smallLogos : {[id:string]:string}={
     "":"",
     "coding-hub":CHlogo,
-    "suny-platt":CHlogo,
-    "side-projects":CHlogo,
+    "suny-platt":SunyLogo,
+    "side-projects":myLogo,
 }
 const fullLogos : {[id:string]:string}={
     "":"",
     "coding-hub":CHFullLogo,
-    "suny-platt":CHFullLogo,
-    "side-projects":CHFullLogo,
+    "suny-platt":SunyFullLogo,
+    "side-projects":myLogo,
 };
 interface ProjectFCProps{
     project:ProjectType,

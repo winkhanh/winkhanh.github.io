@@ -17,7 +17,7 @@ function App() {
       <Header/>
       <Body/>
       <Footer/>
-      
+    
     </div>
     </ThemeContext.Provider>
   );
