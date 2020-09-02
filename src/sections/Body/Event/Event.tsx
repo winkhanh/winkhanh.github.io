@@ -55,7 +55,7 @@ const Event:React.FC = ()=>{
             <Row className='event-list'>
                 <div className="ml-auto mr-auto event-list-container">
                     <ol>
-                        {listOfEvents.map((eventPoint,idx)=>{
+                        {listOfEvents.map((eventPoint : EventPointType,idx)=>{
                             if (eventPoint.value<getEventAt(sliding1).value || eventPoint.value>getEventAt(sliding2).value)
                                 return null;
                             return(

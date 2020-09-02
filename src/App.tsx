@@ -1,10 +1,13 @@
 import React,{useState} from 'react';
+import {Switch, HashRouter as Router, Route} from 'react-router-dom';
+
 import ThemeContext from './context/theme';
 import './App.scss';
 import Header from './sections/Header/Header';
 import Body from './sections/Body/Body';
+import Visualizer from './sections/AlgorithmsVisualizer/Visualizer';
 import Footer from './sections/Footer/Footer';
-import CodeEditor from './sections/CodeEditor/CodeEditor';
+
 function App() {
   const [theme,setTheme]=useState(Math.round(Math.random()*360))
   return (
@@ -14,13 +17,21 @@ function App() {
       changeTheme:()=>{setTheme(Math.round(Math.random()*360))}
     }}>
     <div className="app">
+    <Router>
       <Header/>
-      <Body/>
+      <Switch>
+        <Route exact path='/av'>
+          <Visualizer/>
+        </Route>
+        <Route path='/'>
+          <Body/>
+        </Route>
+        
+      </Switch>
       <Footer/>
-    
+    </Router>
     </div>
     </ThemeContext.Provider>
   );
 }
-
 export default App;
