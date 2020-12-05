@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f27479e4a011ca6d514b841d1f6d0da",
+    "revision": "aed5cb5e907201fc8765c90c574c80cf",
     "url": "/index.html"
   },
   {
-    "revision": "a2e23d05aa296dc51ac7",
+    "revision": "9e6f42ba1f75143f64f5",
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "483ba2537663b5f2adee",
-    "url": "/static/css/main.e68fbeb1.chunk.css"
+    "revision": "83cbb74a25be20a3623b",
+    "url": "/static/css/main.9d08994b.chunk.css"
   },
   {
-    "revision": "a2e23d05aa296dc51ac7",
-    "url": "/static/js/2.31048a48.chunk.js"
+    "revision": "9e6f42ba1f75143f64f5",
+    "url": "/static/js/2.3d0e90dc.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.31048a48.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.3d0e90dc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "483ba2537663b5f2adee",
-    "url": "/static/js/main.15e729c8.chunk.js"
+    "revision": "83cbb74a25be20a3623b",
+    "url": "/static/js/main.82798e94.chunk.js"
   },
   {
     "revision": "8cdf164702af695058ba",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "accca6e9a0655abe125ccd14883cbc66",
     "url": "/static/media/CHLogo.accca6e9.svg"
-  },
-  {
-    "revision": "43910bb44108468e55f751a2dcf4634e",
-    "url": "/static/media/DiscordWin.43910bb4.svg"
   },
   {
     "revision": "1049d0caa1dcf25c88e9af524b761dad",

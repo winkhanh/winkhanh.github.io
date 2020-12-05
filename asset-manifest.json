@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.e68fbeb1.chunk.css",
-    "main.js": "/static/js/main.15e729c8.chunk.js",
-    "main.js.map": "/static/js/main.15e729c8.chunk.js.map",
+    "main.css": "/static/css/main.9d08994b.chunk.css",
+    "main.js": "/static/js/main.82798e94.chunk.js",
+    "main.js.map": "/static/js/main.82798e94.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.223301a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.223301a1.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.31048a48.chunk.js": "/static/js/2.31048a48.chunk.js",
-    "static/js/2.31048a48.chunk.js.map": "/static/js/2.31048a48.chunk.js.map",
+    "static/js/2.3d0e90dc.chunk.js": "/static/js/2.3d0e90dc.chunk.js",
+    "static/js/2.3d0e90dc.chunk.js.map": "/static/js/2.3d0e90dc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3edbd28714727f6acfa68866fbee9869.js": "/precache-manifest.3edbd28714727f6acfa68866fbee9869.js",
+    "precache-manifest.dd7fb592a09a099a42ba6577a7a87367.js": "/precache-manifest.dd7fb592a09a099a42ba6577a7a87367.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.e68fbeb1.chunk.css.map": "/static/css/main.e68fbeb1.chunk.css.map",
-    "static/js/2.31048a48.chunk.js.LICENSE.txt": "/static/js/2.31048a48.chunk.js.LICENSE.txt",
+    "static/css/main.9d08994b.chunk.css.map": "/static/css/main.9d08994b.chunk.css.map",
+    "static/js/2.3d0e90dc.chunk.js.LICENSE.txt": "/static/js/2.3d0e90dc.chunk.js.LICENSE.txt",
     "static/media/Bg1.svg": "/static/media/Bg1.055d896f.svg",
     "static/media/Bg2.svg": "/static/media/Bg2.92e34efc.svg",
     "static/media/Bg3.svg": "/static/media/Bg3.d113c511.svg",
     "static/media/CHLogo.svg": "/static/media/CHLogo.accca6e9.svg",
-    "static/media/DiscordWin.svg": "/static/media/DiscordWin.43910bb4.svg",
     "static/media/FacebookWin.svg": "/static/media/FacebookWin.1049d0ca.svg",
     "static/media/GitWin.svg": "/static/media/GitWin.c6f31b31.svg",
     "static/media/InstagramWin.svg": "/static/media/InstagramWin.756916bf.svg",
@@ -33,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.223301a1.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.31048a48.chunk.js",
-    "static/css/main.e68fbeb1.chunk.css",
-    "static/js/main.15e729c8.chunk.js"
+    "static/js/2.3d0e90dc.chunk.js",
+    "static/css/main.9d08994b.chunk.css",
+    "static/js/main.82798e94.chunk.js"
   ]
 }
