@@ -60,6 +60,11 @@ const listOfEvent : EventPointType[] = [
         time:"Spring 2019",
         value:19,
         events:["Fourth place in CCSCNE 2019 (http://ccscne.org/participate/programming-contest/)"]
+    },
+    {
+        time:"Fall 2020",
+        value:25,
+        events:["Start as a software engineer intern at Medius Research, Inc"]
     }
 ];
 export default listOfEvent;

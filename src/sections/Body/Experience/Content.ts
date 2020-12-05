@@ -75,6 +75,21 @@ const SUNYExp : ExperienceType = {
 };
 export {SUNYExp};
 
+const MediusExp : ExperienceType = {
+    name: "Medius Research, Inc",
+    key: "medius",
+    title: "Software Engineer Intern",
+    location: "Remotely, Palm City, FL",
+    date: "September 2020 - December 2020",
+    bulletPoints:[
+        "Collaborated with the development team to implement front-end design and functionality",
+        "Adopted new development frameworks and collaboration technologies as needed along with developing proficiency in technologies core to our technical stack",
+        "Worked with project founders to implement higher-level goals",
+        "Implemented the main page and the editor for the website"
+    ]
+}
+export {MediusExp}
+
 const SideProjectExp : ExperienceType = {
     name: "Side Projects",
     key: "side-projects",

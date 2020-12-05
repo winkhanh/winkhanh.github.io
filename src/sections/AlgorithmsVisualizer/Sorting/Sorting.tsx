@@ -1,24 +1,37 @@
 import React,{useState, useEffect} from 'react';
 import './Sorting.scss';
-import {SelectionSort,BubbleSort, InsertionSort} from './Algorithms';
+import {SelectionSort,BubbleSort, InsertionSort, QuickSort, RandomQuickSort, HeapSort, MergeSort, ShellSort, BogoSort} from './Algorithms';
 const listOfSortingAlgorithms:Array<[string,Function]>=[
     ["selection_sort",SelectionSort],
     ["bubble_sort",BubbleSort],
-    ["insertion_sort",InsertionSort]
+    ["insertion_sort",InsertionSort],
+    ["shell_sort",ShellSort],
+    ["quick_sort",QuickSort],
+    ["random_quick_sort",RandomQuickSort],
+    ["heap_sort",HeapSort],
+    ["merge_sort",MergeSort]
 ];
 let st:Array<number>=[];
-for (let i=0;i<100;i++){
+for (let i=0;i<10;i++){
     st.push(Math.floor(Math.random()*400));
 }
-const Sorting : React.FC = ()=>{
-    
+interface SortingProps{
+    delay:number,
+    running:boolean,
+    atTheSameTime:boolean
+}
+const Sorting : React.FC<SortingProps> = ({delay,running,atTheSameTime}:SortingProps)=>{
+    const [turnToStart,setTurn]=useState(0);
+    useEffect(()=>{
+        
+    },[atTheSameTime])
     return (
         <div>
             {listOfSortingAlgorithms.map((algo,idx)=>
             <SortingStateVisualizer
                 resultStates={performSort([...st],algo[0])}
-                delayTime={200}
-                running={true}
+                delayTime={delay}
+                running={running && (atTheSameTime || (idx===turnToStart))}
                 key={idx}
             />)}
             
@@ -28,7 +41,8 @@ const Sorting : React.FC = ()=>{
 
 interface SortingStateType{
     state:Array<number>,
-    comparingIndexes:[number,number]
+    comparingIndexes:[number,number],
+    comparisionCount:number
 }
 interface SortingResult{
     states:Array<SortingStateType>,
@@ -38,12 +52,13 @@ const performSort = (arr:Array<number>,algorithm:string):SortingResult =>{
     console.log(algorithm);
     let result: Array<SortingStateType>=[{
         state:[...arr],
-        comparingIndexes:[-1,-1]
+        comparingIndexes:[-1,-1],
+        comparisionCount:0
     }];
     let count:number=0;
     const addState = (arr:Array<number>,x1:number,x2:number,c:number) : void =>{
         count+=c;
-        result.push({state:[...arr],comparingIndexes:[x1,x2]});
+        result.push({state:[...arr],comparingIndexes:[x1,x2],comparisionCount:count});
     }
     listOfSortingAlgorithms.forEach((val,idx)=>{
         if (val[0]===algorithm){
@@ -62,9 +77,6 @@ interface SortingStateVisualizerProps{
 const SortingStateVisualizer : React.FC<SortingStateVisualizerProps> = ({resultStates,delayTime,running})=>{
     const [sortingState,setSortingState]=useState(0);
     const states=resultStates.states;
-    const currentArray=states[sortingState].state;
-    const currentPair=states[sortingState].comparingIndexes;
-    const n=currentArray.length;
     useEffect(()=>{
         let id: ReturnType<typeof setTimeout>;
         if (running && sortingState+1<states.length){
@@ -74,9 +86,17 @@ const SortingStateVisualizer : React.FC<SortingStateVisualizerProps> = ({resultS
         }
         return ()=>{clearTimeout(id);}
     },[running,states,sortingState,delayTime]);
+    if (states.length<=0) return null;
+    console.log(states);
+    console.log(sortingState);
+    const currentArray=states[sortingState].state;
+    const currentPair=states[sortingState].comparingIndexes;
+    const comparisionCount=states[sortingState].comparisionCount;
+    const n=currentArray.length;
+    
     return(
         <div>
-            <h1>{resultStates.comparisionCount}</h1>
+            <h1>{comparisionCount}</h1>
             <div className='sv'
                 style={{
                     display:"grid",

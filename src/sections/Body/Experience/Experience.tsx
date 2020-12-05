@@ -9,17 +9,18 @@ import CHFullLogo from '../../../assets/CHLogo.svg';
 import myLogo from '../../../assets/Logo.svg';
 import SunyLogo from '../../../assets/suny.png';
 import SunyFullLogo from '../../../assets/SUNYLogo.jpg';
+import MediusLogo from '../../../assets/medius.jpg';
 
-import {ProjectType, ExperienceType, CodingHubExp, SideProjectExp, SUNYExp} from './Content';
-const listExp : ExperienceType[] = [CodingHubExp,SUNYExp, SideProjectExp];
+import {ProjectType, ExperienceType, CodingHubExp, SideProjectExp, SUNYExp, MediusExp} from './Content';
+const listExp : ExperienceType[] = [MediusExp, CodingHubExp, SUNYExp, SideProjectExp];
 const smallLogos : {[id:string]:string}={
-    "":"",
+    "medius":MediusLogo,
     "coding-hub":CHlogo,
     "suny-platt":SunyLogo,
     "side-projects":myLogo,
 }
 const fullLogos : {[id:string]:string}={
-    "":"",
+    "medius":MediusLogo,
     "coding-hub":CHFullLogo,
     "suny-platt":SunyFullLogo,
     "side-projects":myLogo,

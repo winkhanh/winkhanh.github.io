@@ -4,7 +4,6 @@ import WButton from '../../components/WButton/WButton';
 import Git from '../../assets/GitWin.svg';
 import Facebook from '../../assets/FacebookWin.svg';
 import Instagram from '../../assets/InstagramWin.svg';
-import Discord from '../../assets/DiscordWin.svg';
 import Mail from '../../assets/MailWin.svg';
 import LinkedIn from '../../assets/LinkedInWin.svg';
 import background from '../../assets/p1_bg.png';
@@ -19,7 +18,6 @@ const contacts: [string,string][]=[
     [Git,'https://github.com/winkhanh'],
     [Facebook,'https://www.facebook.com/wgiakhanh'],
     [Instagram,'https://www.instagram.com/khanh180900/'],
-    [Discord,''],
     [Mail,''],
     [LinkedIn,'https://www.linkedin.com/in/wkhanh-le/']
 ];
